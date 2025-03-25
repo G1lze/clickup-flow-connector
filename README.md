@@ -37,7 +37,8 @@ A swagger file to build a custom connector for Microsoft Flow to connect to Clic
 | PostTaskComment | Enter a task id and post a comment |
 | GetTasksFromList | Enter a list id and get all the tasks that live in there |
 | CreateTask | Enter a list id and create a new task |
-| ~~PostAttachment~~ | Does not work yet.. but I successfully accomplished posting attachments to a task with a workaround by using the premium HTTP connector and the POST method. Will provide more info soon. Hopefully we get that definition running which will make that workaround needless.  |
+| PostAttachment | Enter a attachment and add attachment to task  |
+| Update a Custom Field | Enter a value to update custom field |
 
 You are now ready to play around with your custom connector. You will be prompted to enter your ClickUp API Token when using it for the first time within your Flows. Remember.. you generated it at the beginning. Go to ClickUp, again hit your face ..just jokin - you already know where to find it :P
 
